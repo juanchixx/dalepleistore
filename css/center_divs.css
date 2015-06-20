@@ -44,6 +44,12 @@ height: 70px;
 border-style: dashed;
 width: 220px;
 height: 300px;
+display: table;
+}
+
+#div-agregar{
+display: table-cell;
+vertical-align: middle;
 }
 
 #txt-agregar{
