@@ -68,3 +68,22 @@ font-size: 20px;
 	width: 100%;
 	
 }
+
+#usuario{
+	margin-top:3px;
+	border-style:solid;
+	width:140px;
+	height:192px;
+	border-width:1px;
+	padding:inherit;
+	padding-top:12px;
+	
+	}
+#usuario1{
+	
+	position:relative;
+	left:338px;
+}
+#txtUsuario{
+	font-size:15px;
+}
