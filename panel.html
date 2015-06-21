@@ -7,6 +7,7 @@
 		<title>Dale Plei Store</title>
 		<link type="text/css" href="css/bootstrap.css" rel="stylesheet">
 		<link type="text/css" href="css/center_divs.css" rel="stylesheet">	
+		
 	</head>
 
 	<body>
@@ -41,13 +42,41 @@
 		</nav>
 
 		<section id="obras">
-			<a class="btn btn-default" id="btn-agregar" href="#" role="button">
+			<a class="btn btn-default" id="btn-agregar" href="#" role="button" data-toggle="modal" data-target="#myModal">
 				<div id="div-agregar">
 				<span class="glyphicons glyphicon-plus gi-3x"></span>
 				<p id="txt-agregar"> Agregar obra </p>
 				</div>
 			</a>
 		</section>
+		
+		
+		<!-- Acá se cargan las librerias de JavaScript -->
+		<script src="js/jquery.js"></script>
+ 
+    
+		<script src="js/bootstrap.min.js"></script>
+	
+		<!-- Ventana Emergente para agregar el codigo -->
+
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">Ingrese el codigo</h4>
+			  </div>
+			  <div class="modal-body">
+				<input type="text" class="form-control" id="codigo" name="codigo" placeholder="#######">
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+				<button type="button" class="btn btn-primary">Cargar</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+
 
 		<footer>
 			
