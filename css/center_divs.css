@@ -80,9 +80,9 @@ font-size: 20px;
 	
 	}
 #usuario1{
-	
-	position:relative;
-	left:338px;
+	display:block;
+	position:absolute;
+	right:1px;
 }
 #txtUsuario{
 	font-size:15px;
