@@ -61,3 +61,10 @@ font-size: 20px;
 .gi-3x{font-size: 3em;}
 .gi-4x{font-size: 4em;}
 .gi-5x{font-size: 5em;}
+
+#footer{
+	position: absolute;
+	bottom:0;
+	width: 100%;
+	
+}
