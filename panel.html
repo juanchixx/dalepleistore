@@ -43,7 +43,7 @@
 						<span class="glyphicon glyphicon-user gi-4x"></span>
 							<p id="txt-usuario">Nombre Usuario</p>
 							<p><a href="#">Panel de Control</a></p>
-							<p><a href="#"><small>[Cerrar Sesión]</small></a></p>
+							<p><a href="#"><small>[Cerrar SesiÃ³n]</small></a></p>
 					</div>	
 				</div>-->
 
@@ -85,16 +85,32 @@
 
 
 		<section id="obras" class="col-md-12 col-lg-12 col-sm-12">
-			<a class="btn btn-default" id="btn-agregar" href="#" role="button" data-toggle="modal" data-target="#myModal">
-				<div id="div-agregar">
-				<span class="glyphicons glyphicon-plus gi-3x"></span>
-				<p id="txt-agregar"> Agregar obra </p>
-				</div>
-			</a>
-		</section>
+			<div class="row">
+				<a class="btn btn-default" id="btn-agregar" href="#" role="button" data-toggle="modal" data-target="#myModal">
+					<div id="div-agregar">
+					<span class="glyphicons glyphicon-plus gi-3x"></span>
+					<p id="txt-agregar"> Agregar obra </p>
+					</div>
+				</a>
+				<!-- Modelo de botón de obra -->
+				<a class="btn btn-default" id="btn-obra" href="#" role="button" data-toggle="modal" data-target="#ver-obra">
+					<img  src="img/p_obras/anita.jpg" class="poster" />
+					<p id="txt-agregar"> Obra </p>
+				</a>
+			</div>
+		</section>		
 		
+		<footer class="footer" id="footer">
+			<div class="container">
+					<nav class="navbar navbar-default navbar-fixed-bottom">
+        				<div id="txtfooter" class="navbar-inner navbar-content-center">
+            				<p class="text-center credit">Dale Plei Store 2015</p>
+        				</div>
+    				</nav>	
+			</div>
+		</footer>
 		
-		<!-- Ac� se cargan las librerias de JavaScript -->
+		<!-- Acá se cargan las librerias de JavaScript -->
 		<script src="js/jquery.js"></script>
  
     
@@ -120,16 +136,31 @@
 		  </div>
 		</div>
 
+		<!-- Modelo de ventana emergente de obra -->
 
-		<footer class="footer" id="footer">
-			<div class="container">
-					<nav class="navbar navbar-default navbar-fixed-bottom">
-        				<div id="txtfooter" class="navbar-inner navbar-content-center">
-            				<p class="text-center credit">Dale Plei Store 2015</p>
-        				</div>
-    				</nav>	
+		<div class="modal fade" id="ver-obra" tabindex="-1" role="dialog" aria-labelledby="ver-obra">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+			  	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			  </div>
+			  <div class="modal-body">
+							  	<!-- 16:9 aspect ratio -->
+				<div class="embed-responsive embed-responsive-16by9">
+				  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jTb-UZ9g8tI" allowfullscreen></iframe>
+				</div>
+
+				<!-- 4:3 aspect ratio -->
+				<!--
+				<div class="embed-responsive embed-responsive-4by3">
+				  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jTb-UZ9g8tI"></iframe>
+				</div>
+				-->
 			</div>
-		</footer>
+		  </div>
+		</div>
+
+
 
 	</body>
 

@@ -68,8 +68,7 @@ font-size: 20px;
 #footer{
 	position: absolute;
 	bottom:0;
-	width: 100%;
-	
+	width: 100%;	
 }
 
 
@@ -89,10 +88,9 @@ font-size: 20px;
 	border-width:1px;
 	padding:inherit;
 	padding-top:12px;
-	padding-left: 15px;
-	padding-right: 
-	
+	padding-left: 15px;	
 	}
+
 #recuadro{
 	display:block;
 	position:absolute;
@@ -103,4 +101,25 @@ font-size: 20px;
 	color: #c90e27;
 	/*color: #a10d26;*/
 	
+}
+
+#obras{
+	display: table;
+}
+
+#ver-obra{
+	height: 100%;
+	padding-top: 15%;
+}
+
+#btn-obra{
+display: table-cell;	
+width: 200px;
+height: 280px;
+display: table;
+}
+
+.poster{
+width: 170px;
+height: 238px;
 }
