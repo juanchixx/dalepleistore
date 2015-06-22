@@ -70,6 +70,7 @@ font-size: 20px;
 	
 }
 
+<<<<<<< HEAD
 #recuadro{
 height: 250px;
 margin: 0;
@@ -92,16 +93,34 @@ border-color: #ddd;
 	
 	}
 
+=======
+#usuario{
+	margin-top:3px;
+	border-style:solid;
+	width:140px;
+	height:192px;
+	border-width:1px;
+	padding:inherit;
+	padding-top:12px;
+	
+	}
+>>>>>>> origin/master
 #usuario1{
 	display:block;
 	position:absolute;
 	right:1px;
 }
+<<<<<<< HEAD
 
 #txtUsuario{
 	font-size:15px;
 }
 
+=======
+#txtUsuario{
+	font-size:15px;
+}
+>>>>>>> origin/master
 #txtfooter{
 	margin-top:12px;
 }
