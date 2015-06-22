@@ -102,9 +102,13 @@ font-size: 20px;
 	/*color: #a10d26;*/
 	
 }
-
+/*
 #obras{
-	display: table;
+	display: inline;
+}*/
+
+#obra{
+	display: inline;
 }
 
 #ver-obra{
