@@ -72,23 +72,6 @@ font-size: 20px;
 	
 }
 
-#recuadro{
-	margin-top:23px;
-	border-style: solid;
-	border-color: gray;
-	width:160px;
-	height:227px;
-	border-width:1px;
-	padding:inherit;
-	padding-top:37px;	
-	}
-
-#usuario{
-	display:block;
-	position:absolute;
-	right:1px;
-}
-
 
 #txt-usuario{
 	font-size:20px;
