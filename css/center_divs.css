@@ -83,18 +83,18 @@ font-size: 20px;
 
 #usuario{
 	margin-top:18px;
-	width: 310px;
+	width: 170px;
 	height:192px;
 	border-width:1px;
 	padding:inherit;
 	padding-top:12px;
-	padding-left: 15px;	
+	padding-left: 10px;
 	}
 
 #recuadro{
 	display:block;
 	position:absolute;
-	width: 300px;
+	/*width: 200px;*/
 }
 
 #icono-usuario{
