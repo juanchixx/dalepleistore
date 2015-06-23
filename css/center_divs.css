@@ -102,18 +102,15 @@ font-size: 20px;
 	/*color: #a10d26;*/
 	
 }
-/*
-#obras{
-	display: inline;
-}*/
 
-#obra{
-	display: inline;
+.obra{
+	margin-right: 21px;
+	margin-bottom: 18px;
 }
 
 #ver-obra{
 	height: 100%;
-	padding-top: 15%;
+	padding-top: 20%;
 }
 
 #btn-obra{
@@ -124,6 +121,7 @@ display: table;
 }
 
 .poster{
-width: 170px;
-height: 238px;
+    height: 228px; 
+    width: auto; 
+    margin-bottom: 0px;
 }
